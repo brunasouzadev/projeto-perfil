@@ -1,0 +1,97 @@
+body {
+  font-family: "Fira Sans";
+}
+
+h2 {
+  color: #141414;
+  font-size: 1.5rem;
+}
+
+body {
+  background: url("./img/option2.jpg") no-repeat;
+}
+
+.introducao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.introducao-descricao h1 {
+  color: #70896c;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.introducao-descricao p {
+  font-size: 1.75rem;
+  color: #525252;
+}
+
+.sobre {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  gap: 40px;
+}
+
+.sobre-info p {
+  color: #525252;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  max-width: 105ch;
+}
+
+button {
+  padding: 20px 40px;
+  background-color: #70896c;
+  font-size: 1rem;
+  border-radius: 2px;
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.lista-detalhes dt {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #525252;
+  line-height: 1.5;
+}
+
+.lista-detalhes dd {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #525252;
+}
+
+.sobre-detalhes img {
+  max-width: 30px;
+  height: auto;
+  padding: 5px;
+}
+
+.sobre-detalhes a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #525252;
+  color: #ffffff;
+  font-family: "Fira Sans";
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
